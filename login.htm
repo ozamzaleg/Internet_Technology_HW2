@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='main.css'>
+    <link rel='stylesheet' href='start.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='login.js'></script>
+</head>
+
+</head>
+
+<body>
+    <ul>
+
+        <li>
+            <a href="start.htm">About the game</a></li>
+        <li><a class="active" href="#login.htm">Login</a></li>
+        <li><a href="flappy.htm">Flappy Bird</a></li>
+    </ul>
+
+    <div class="position">
+        <h1 class="title">
+            login
+        </h1>
+    </div>
+    <div class="login">
+        <from class="login-form">
+            <input type="text" id="username" placeholder="User Name">
+            <i class="material-icons">account_box</i>
+            <div id="username_error">Invalid userName</div>
+            <input type="password" id="password" placeholder="Password">
+            <i class="material-icons">visibility</i>
+            <div id="password_error">Invalid passWord</div>
+            <input type="submit" value="Login" onclick="login()">
+        </from>
+    </div>
+</body>
+
+</html>
